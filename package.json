@@ -1,0 +1,27 @@
+{
+  "name": "native_cpp_extension",
+  "version": "1.0.0",
+  "description": "Simple project to demonstrate cpp extension for nodejs implementation",
+  "main": "index.js",
+  "gypfile": "true",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sighr/node-native-cpp-extension.git"
+  },
+  "author": "Sighr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sighr/node-native-cpp-extension/issues"
+  },
+  "homepage": "https://github.com/Sighr/node-native-cpp-extension#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "express": "^4.17.1",
+    "node-addon-api": "^3.1.0",
+    "node-gyp": "^7.1.2"
+  }
+}
